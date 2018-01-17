@@ -1,0 +1,13 @@
+.filtered-table .table-control,
+.filtered-table .table-pagination {
+  padding: 20px 0;
+}
+.filtered-table .table-pagination {
+  display: flex;
+  justify-content: center;
+}
+.filtered-table .table-title {
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
