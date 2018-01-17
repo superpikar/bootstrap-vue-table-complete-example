@@ -12,8 +12,12 @@
 </head>
 <body>
   <div id="app" class="container">
-    Vue-Bootstrap table - complete example
-    <filtered-table label="Cerpen Terbaru" :items="items"></filtered-table>
+    <h2>Vue-Bootstrap table - complete example</h2>
+    <filtered-table :label="``" :items="items">
+      <template slot="title">
+        Latest posts from <a :href="`http://${blogURL}`" target="_blenk">{{blogURL}}</a>
+      </template>
+    </filtered-table>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.13/vue.min.js"></script>

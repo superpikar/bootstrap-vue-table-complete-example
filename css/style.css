@@ -1,3 +1,6 @@
+#app {
+  padding: 50px 0;
+}
 .filtered-table .table-control,
 .filtered-table .table-pagination {
   padding: 20px 0;

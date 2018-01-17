@@ -49,7 +49,7 @@ Vue.component('filtered-table', {
   template: `
     <div class="filtered-table">
       <div class="table-title">
-        Table of {{label}}
+        <slot name="title"></slot>
       </div>
       <div class="row table-control">
         <div class="col-md-3">
